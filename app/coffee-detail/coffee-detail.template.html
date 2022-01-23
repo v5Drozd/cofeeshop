@@ -1,10 +1,14 @@
+
 <div class="container-fluid">
     <div class="row">
       <div class="col-md-2">
+        <h3>Coffe details:</h3>
         <!--Sidebar content-->
-
-        <h1>{{$ctrl.coffee.images}}</h1>
-       <img src="$ctrl.coffee.images" alt="">
+        <div>Name: {{$ctrl.coffee.name}}</div>
+        <div>From: {{$ctrl.coffee.from}}</div>
+        <div>Provide in next glass:</div>
+       <img src="{{$ctrl.coffee.images}}" alt="{{$ctrl.coffee.name}}" width="300" height="300">
+       
       </div>
     </div>
   </div>

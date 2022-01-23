@@ -3,8 +3,6 @@
       <div class="col-md-2">
         <!--Sidebar content-->
   
-
-  
       </div>
     </div>
   </div>
@@ -30,7 +28,7 @@
       <div class="col-md-10">
         <!--Body content-->
   
-        <ul class="phones">
+        <ul class="items">
           <li ng-repeat="coffee in $ctrl.coffees | filter:$ctrl.query | orderBy: $ctrl.orderProp" class="thumbnail">
             <a href="#!/coffee/{{coffee.name}}" class="thumb">
               <img ng-src="{{coffee.imageUrl}}" alt="{{coffee.name}}" />

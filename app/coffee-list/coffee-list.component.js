@@ -19,7 +19,7 @@ component('coffeeList',{
             },
             {
                 id:2,
-                name: "Ammericano",
+                name: "Americano",
                 size: 50,
                 imageUrl: "img/coffees/americano.png"
             },
@@ -27,7 +27,7 @@ component('coffeeList',{
             {
                 name: "Cappuchino",
                 size: 120,
-                imageUrl: "img/coffees/capuchino.jpg"
+                imageUrl: "img/coffees/cappuchino.jpg"
             }
 
         ];
